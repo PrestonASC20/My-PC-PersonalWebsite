@@ -1,0 +1,234 @@
+html{
+    background-color:  rgb(0, 127, 255);
+}
+h1{
+    display: inline;
+    font-size: 80px;
+}
+
+.HeadBox{
+    width:auto;
+    /* display:inline; */
+    position:relative;
+    text-align:center;
+    padding:20px;
+    background-color: #FFC324;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: rgb(26, 60, 231);
+    color: rgb(26, 60, 231);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+    font-stretch: expanded;  
+}
+#img{
+    max-width: 100%;
+    height: 400px;
+    object-fit: contain;
+    /* float:right; */
+    position: relative;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#IntroBox{
+    font-size: 40px;
+    color: #FFC324;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#description{
+    display: inline;
+    font-size: 34px;
+    color: #FFC324;
+    text-align:center;
+    margin-left: 30px;
+}
+
+#info{
+    display: inline;
+    font-size: 36px;
+    color: #FFC324;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:#FFC324;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#About{
+    font-size: 28px;
+    background-color: #FFC324;
+    color:  rgb(26, 60, 231);
+    display: inline-flexbox;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: rgb(26, 60, 231);
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#skillBox{
+    display:inline;
+    margin-bottom: 5px;
+    font-size: 36px;
+    color: #FFC324;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:#FFC324;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#skillPoints{
+    display: ;
+    font-size: 30px;
+    background-color: #FFC324;
+    color: rgb(26, 60, 231);
+    border-radius: 10px;
+    border-style:solid;
+    border-color: rgb(26, 60, 231);
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position:relative;
+    max-width: 500px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#Education{
+    display: inline;
+    font-size: 36px;
+    color: #FFC324;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:#FFC324;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#Courses{
+    font-size: 30px;
+    background-color: #FFC324;
+    color:  rgb(26, 60, 231);
+    border-radius: 10px;
+    border-style:solid;
+    border-color: rgb(26, 60, 231);
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position:relative;
+    max-width: 500px;
+    height: auto;
+    box-sizing: border-box
+}
+
+#Projects{
+    display: inline;
+    font-size: 36px;
+    color: #FFC324;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:#FFC324;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#code{
+    font-size: 34px;
+    color:rgb(87, 255, 3);
+    margin-left: 30px;
+}
+
+#Art{
+    display: inline;
+    font-size: 36px;
+    color: #FFC324;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:#FFC324;
+    margin-top: 10px; 
+    margin-bottom: 60px;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#link{
+font-size: 34px;
+color:rgb(87, 255, 3);
+margin-top: 10px;
+margin-left: 30px;
+}
+
+#reach{
+    display: inline;
+    font-size: 30px;
+    color: #FFC324;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:#FFC324;
+    margin-top: 10px; 
+    margin-bottom: 60px;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#List {
+    font-size: 30px;
+    background-color: #FFC324;
+    color:  rgb(0, 0, 0);
+    border-radius: 10px;
+    border-style:solid;
+    border-color: rgb(26, 60, 231);
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position:relative;
+    max-width: 450px;
+    height: auto;
+    box-sizing: border-box;
+}  
+
+
+/*Code for the Art Page*/
+#ProjectPics{
+    width:auto;
+    /* display:inline; */
+    position:relative;
+    text-align:center;
+    padding:20px;
+    background-color: #FFC324;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: rgb(26, 60, 231);
+    color: rgb(26, 60, 231);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+    font-stretch: expanded;
+    position:relative;
+}
+
+
+#backlink{
+font-size: 30px;
+color:rgb(87, 255, 3);
+margin-top: 10px;
+margin-left: 20px;
+}
+    
+#Pictures{
+    text-align:center;
+    margin-top:30px;    
+}
+#tape{
+    margin-left: 30px;
+    margin-right:30px;
+}
